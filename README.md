@@ -1,6 +1,4 @@
 #  Mean and variance of a discrete  distribution
-
-
 # Aim : 
 
 To find mean and variance of arrival of objects from the feeder using probability distribution
@@ -47,11 +45,42 @@ It shows the distance of a random variable from its mean. It is calcualted as
 
 ![image](https://user-images.githubusercontent.com/103921593/229993174-5b67e57e-3e01-4ac4-9f83-410a932b22bf.png)
 
+# Name: DINESH M
+# Reg. No: 212225040080
+# Date: 18-04-2026
+# Slot Name: T2-E2
 # Program :
+```py
+n=int(input("Enter number of values: "))
 
+x=[]
+p=[]
+
+print("Enter values of x: ")
+for i in range(n):
+  x.append(float(input()))
+
+print("Enter probabilities: ")
+for i in range(n):
+  p.append(float(input()))
+
+mean=0
+for i in range(n):
+  mean+=x[i]*p[i]
+
+ex2=0
+for i in range(n):
+  ex2+=(x[i]**2)*p[i]
+
+variance=ex2-mean**2
+print("Mean= ",mean)
+print("Variance= ",variance)
+
+```
 
 
 # Output : 
+<img width="310" height="243" alt="PQM Exp-1" src="https://github.com/user-attachments/assets/7628b8d1-0735-4d8c-9d3d-ff798c8680c4" />
 
 # Results :
 The mean and variance of arrivals of objects from feeder using probability distribution are calculated.
