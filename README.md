@@ -45,8 +45,8 @@ It shows the distance of a random variable from its mean. It is calcualted as
 
 ![image](https://user-images.githubusercontent.com/103921593/229993174-5b67e57e-3e01-4ac4-9f83-410a932b22bf.png)
 
-# Name: DINESH M
-# Reg. No: 212225040080
+# Name: VISHNURAM G N
+# Reg. No: 212225240187
 # Date: 18-04-2026
 # Slot Name: T2-E2
 # Program :
